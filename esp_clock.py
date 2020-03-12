@@ -5,8 +5,8 @@ import ntptime
 import bitbangio as io
 import adafruit_ht16k33.segments
 
-ssid = 'SixTwentyFour'
-password = 'cameronanddominique'
+ssid = ''
+password = ''
 
 i2c = io.I2C(board.SCL, board.SDA)
 display = adafruit_ht16k33.segments.Seg14x4(i2c)
